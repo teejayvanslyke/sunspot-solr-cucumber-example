@@ -22,6 +22,7 @@ end
 group :development, :test do
   gem 'byebug'
   gem 'spring'
+  gem 'jsonpath'
   gem 'cucumber-rails', require: false
   gem 'database_cleaner'
   gem 'sunspot_test'
